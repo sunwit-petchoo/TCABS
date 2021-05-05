@@ -2,17 +2,41 @@
 
 This is my works for unit Database implementation. The purpose of this application is to facilitate the process of team work assessment. Students will be able to log all activities associated with the project and various other forms of peer 
 assessments. In addition, academics staffs can review students’ performance and offer more accurate and fair marking based on students’ individual contributions.
-# Requirements
-- Parking slots have two types: visitors and staff members
-- Parking slot starts with a capital letter, followed by a two-digit number e.g."A01", "A02"
-- Know that the parking slot is occupied or not
-- A car has registration number always starts with a capital letter, followed by a four-digit number e.g. “A2345”.  
-- A car will have onwer and know whether the owner is staff member   
+
 
 # Features
-- Add a parking slot, all information provided by users
-- Delete a parking slot by slot ID (only if not occupied)
-- List all slots and display by slot ID, slot type, occupied and owner
-- Park a car into a slot (provide slot ID and car information)
-- Find a car by registration number and show the slot and the owner
-- Remove a car by registration number
+
+Features are designed to support role of users and there are 4 roles as following:
+
+#### ADMIN
+Admin is responsible to setup the system by creating initial records for new employees including 
+convenors and supervisors, students and units of study. Key tasks required for admin role include:
+- Register new empolyee
+- Register unit of study
+- Register student 
+- Enrol student in unit 
+
+#### CONVENOR
+Convenor is responsible to form teams of students, set assessments, and assign supervisors to each team of students. A convenor must also be able to view all activities at 
+supervisor and student level at any time. Key tasks required for this role include:
+- Register team
+- Register project
+- Setting up the project roles
+- Project allocation
+- Set up peer assessment
+
+#### STUDENT
+For team work projects, each student is assigned to a team and responsible to submit peer assessment according to the unit guidelines. Key tasks required for this role include:
+- Submit individual task
+- Submit peer assessment
+
+#### Supervisor
+Supervisor is responsible to supervisor one or more teams of students and interact with them in form of weekly meetings. Key tasks required for this role include:
+- Setting up supervisor meeting 
+- Supervisor meeting agenda and minutes
+- Conduct supervisor meeting 
+- Student Team meeting 
+
+
+
+
