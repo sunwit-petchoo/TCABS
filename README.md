@@ -35,7 +35,11 @@ Supervisor is responsible to supervisor one or more teams of students and intera
 - Setting up supervisor meeting 
 - Supervisor meeting agenda and minutes
 - Conduct supervisor meeting 
-- Student Team meeting 
+- Student Team meeting
+
+# Contributors
+- Sunwit 
+- Siripond
 
 
 
